@@ -1,0 +1,31 @@
+.List_addButton {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.List_newList {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+  width: 80%;
+}
+
+.List_newList img {
+  width: 500px;
+  height: 350px;
+  border-radius: 25px;
+}
+
+.List_newListText {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+  width: 15rem;
+  margin: auto 2rem;
+}
+
+.List_newListText span {
+  color: #ff8f8f;
+}

@@ -1,0 +1,34 @@
+.ListItem_container {
+  margin: 1%;
+  background-color: white;
+  padding: 2%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.ListItem_taskContainer {
+  font-size: large;
+  font-weight: 600;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 1px;
+  width: 78%;
+}
+.ListItem_label {
+  display: flex;
+  align-items: center;
+}
+.ListItem_taskDetails {
+  width: 95%;
+  margin-left: 2%;
+}
+.ListItem_taskTime {
+  font-size: medium;
+  font-weight: 500;
+}
+.ListItem_buttonContainer {
+  width: 22%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

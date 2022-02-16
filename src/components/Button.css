@@ -1,0 +1,25 @@
+.Button_common {
+  text-align: center;
+  display: block;
+  font-size: medium;
+  font-weight: 600;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 2px;
+  box-shadow: 0 10px 10px 5px rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px 30px;
+  border-radius: 15px;
+  border: solid #ff8f8f 5px;
+}
+.Button_primary {
+  background-color: #ff8f8f;
+  color: white;
+}
+.Button_common:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.Button_common:active {
+  padding: 7px 21px;
+}
